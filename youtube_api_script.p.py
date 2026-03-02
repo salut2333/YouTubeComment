@@ -2,7 +2,7 @@ import googleapiclient.discovery
 import json
 
 # 在这里替换成您的API Key
-API_KEY = "AIzaSyDfj-mMz_ChNbLNs6lqVV7OBHa3HhdkI78" 
+API_KEY = "..." 
 VIDEO_ID = "G3F1dbgBFsQ"  # 在这里替换成您要查询的视频ID
 
 def get_youtube_data(api_key, video_id, max_comment_results_per_page=100, total_comments_limit=500):
