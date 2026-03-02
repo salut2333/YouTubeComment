@@ -256,7 +256,7 @@ async def main():
     """主函数"""
     # ==================== 配置区域 ====================
     # 视频URL（支持多种格式）
-    VIDEO_URL = "https://youtu.be/L1X3QLtTMRI?si=gB6bMyGomGl4NLQQ"
+    VIDEO_URL = "https://youtu.be"
     
     # Google API Key (YouTube Data API v3)pip install youtube-transcript-api
     # 获取方式：
@@ -264,7 +264,7 @@ async def main():
     # 2. 创建项目或选择现有项目
     # 3. 启用 YouTube Data API v3
     # 4. 创建凭据（API密钥）
-    API_KEY = "AIzaSyDfj-mMz_ChNbLNs6lqVV7OBHa3HhdkI78"  # ⚠️ 请在此处填入您的Google API Key
+    API_KEY = "...."  # ⚠️ 请在此处填入您的Google API Key
     
     # 最大获取评论数量（API限制：单次最多100条，脚本会自动分页获取）
     MAX_COMMENTS = 200
